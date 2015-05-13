@@ -7,7 +7,7 @@ $(document).ready(function () {
             textField = "";
         }
         if (keypress == '='){
-            textField = parseInt(textField);
+            textField = eval(textField);
         } else { textField = textField + keypress; }
         $('.textField').text(textField);
     });

@@ -1,23 +1,59 @@
-.btn {
-    width: 65px;
-    margin: 10px;
+body {
+    background: url(desk.jpg) fixed no-repeat;
+}
+
+.calculator {
+    position: absolute;
+    top: 100px;
+    left: 100px;
     padding: 10px;
+    background-color: #F5F5F5;
+    border-radius: 5%;
+    text-align: center;
+    box-shadow: 0px 2px 2px gray;
+}
+
+.keys {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    width: 20%;
+    margin: 2%;
+    padding: 1%;
     background-color: gray;
     text-align: center;
     float: left;
+    cursor: pointer;
+    box-shadow: 0px 3px #5C5C5C;
+}
+
+.btn:hover {
+    box-shadow: 0px 2px #5C5C5C;
+    position: relative;
+    top: 1px;
+
 }
 
 .textField {
     background-color: lightgrey;
-    width: 62%;
-    height: 3em;
     float: left;
-    margin: 10px;
+    width: 55%;
+    height: 3em;
+    margin: 0px 0px 0px 20px;
     padding: 10px;
+    text-align: right;
+}
+
+.equals {
+    background-color: #D0D0D0;
 }
 
 .clear {
+    height: 3em;
     background-color: palevioletred;
-    margin:10px;
+    width: 25%;
+    margin: 0% 5%;
     padding: 10px;
 }
